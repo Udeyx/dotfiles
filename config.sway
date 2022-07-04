@@ -25,7 +25,7 @@ set $menu wofi --show run
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /home/udeyx/Pictures/wp3.jpg fill
+output * bg /home/udeyx/Pictures/wallpapers/wp1.jpg fill
 #
 # Example configuration:
 #
@@ -67,7 +67,6 @@ exec --no-startup-id fcitx5 -d --replace
 # Keybindings for useful apps
 bindsym $mod+Shift+f exec --no-startup-id firefox
 bindsym $mod+Shift+b exec --no-startup-id brave
-bindsym $mod+Shift+d exec --no-startup-id dolphin
 bindsym $mod+$alt+l exec --no-startup-id swaylock -c 000000
 
 ### Key bindings
