@@ -1,1 +1,6 @@
-paru -S zathura zathura-pdf-poppler poppler poppler-data mpv imv llvm noto-fonts-cjk noto-fonts-emoji clang wofi wayfire plasma-wayland-session sway python-pip wf-shell swaybg waybar swayidle swaylock brave-bin light-git mako kanshi wlsunset wlogout grim fcitx5-im fcitx5-rime rime-cloverpinyin fcitx5-material-color wechat-uos wemeet-bin ranger jdk-openjdk rust lua wget go neovim wl-clipboard zsh && sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" && git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions && git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting 
+paru -S noto-fonts-cjk noto-fonts-emoji\
+    plasma-wayland-session sway wayfire\
+    light-git grim wlogout wlsunset mako kanshi mako kanshi wofi swaybg waybar swayidle swaylock wl-clipboard\
+    fcitx5-im fcitx5-rime rime-cloverpinyin fcitx5-material-color
+    
+
